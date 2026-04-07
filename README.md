@@ -22,12 +22,11 @@ Terraform installed on local machine.
 An existing AWS Key Pair 
 
 # How to deploy:
-Initialize: terraform init
+Initialize: `terraform init`
 
-Apply: terraform apply 
+Apply: `terraform apply` 
 
 Access: Visit http://<EC2_PUBLIC_IP> to see app running.
 
 # Cleanup:
-Always destroy resources after testing to avoid costs:
-terraform destroy 
+`terraform destroy` 
